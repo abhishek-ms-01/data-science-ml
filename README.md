@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Data Science & ML Practice Session
 
 A hands-on learning repository covering the fundamentals of Python, statistics, data analysis, visualization, and machine learning. This project is a personal practice workspace built around notebooks and small datasets used to strengthen core data science concepts.
@@ -87,3 +88,6 @@ This repository reflects a learning journey and is meant for practice, experimen
 ---
 
 Made for continuous learning and skill-building in data science and machine learning.
+=======
+# data-science-ml
+>>>>>>> 0508710035b0a9f2e88d383bb1cdfdd0d288d846
