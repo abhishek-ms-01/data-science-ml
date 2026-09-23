@@ -1,45 +1,33 @@
-<<<<<<< HEAD
-# Data Science & ML Practice Session
+﻿![Data Science & ML Banner](https://img.shields.io/badge/Data%20Science-ML%20Practice-0A66C2?style=for-the-badge&logo=python&logoColor=white)
 
-A hands-on learning repository covering the fundamentals of Python, statistics, data analysis, visualization, and machine learning. This project is a personal practice workspace built around notebooks and small datasets used to strengthen core data science concepts.
+# Data Science & ML Practice
 
-## Overview
+A compact collection of notebooks and datasets focused on Python, statistics, visualization, and introductory machine learning.
 
-This repository contains Jupyter notebooks focused on:
+## About this repository
 
-- Python basics and scripting
-- NumPy for numerical computing
-- Pandas for data manipulation
-- Seaborn for statistical visualization
-- Statistics and exploratory analysis
+This project is a personal learning workspace covering:
+
+- Python fundamentals
+- NumPy and Pandas workflows
+- Data visualization with Seaborn
+- Descriptive and inferential statistics
 - Simple linear regression
-- Boston house price prediction
+- Boston housing price prediction
 
-It is designed as a practice archive for building confidence with data science workflow, data cleaning, EDA, visualization, and introductory ML modeling.
+## Included files
 
-## Repository Contents
+- `python.ipynb` — Python practice notebook
+- `Numpy.ipynb` — numerical computing concepts
+- `pandas.ipynb` — data analysis and manipulation
+- `seaborn.ipynb` — visual data exploration
+- `statistics.ipynb` — statistical concepts and exercises
+- `Simple_Linear_Regression.ipynb` — regression basics
+- `boston_house_price_prediction.ipynb` — ML prediction project
+- `boston.csv` — dataset for housing analysis
+- `pokeman.csv` — sample practice dataset
 
-- `python.ipynb` — Python basics and foundational programming exercises
-- `Numpy.ipynb` — arrays, operations, and numerical computations
-- `pandas.ipynb` — DataFrame creation, filtering, grouping, and manipulation
-- `seaborn.ipynb` — plotting and statistical visual storytelling
-- `statistics.ipynb` — descriptive statistics and probability concepts
-- `Simple_Linear_Rigression.ipynb` — introduction to regression and model fitting
-- `boston_house_price_prediction.ipynb` — practical predictive modeling using the Boston housing dataset
-- `boston.csv` — dataset used in housing price analysis
-- `pokeman.csv` — practice dataset for exploratory analysis
-
-## Learning Goals
-
-- Build familiarity with Python for data work
-- Learn data wrangling with Pandas
-- Understand numerical operations with NumPy
-- Explore and visualize patterns in datasets
-- Practice statistics and interpretation
-- Apply simple machine learning techniques
-- Develop a structured workflow for data science projects
-
-## Tools and Libraries Used
+## Tech stack
 
 - Python
 - Jupyter Notebook
@@ -49,45 +37,18 @@ It is designed as a practice archive for building confidence with data science w
 - Matplotlib
 - Scikit-learn
 
-## Suggested Workflow
+## Learning goals
 
-1. Open the notebooks in Jupyter Notebook or VS Code.
-2. Run cells sequentially to understand each concept.
-3. Experiment with the code and modify parameters.
-4. Practice interpreting results before moving to model evaluation.
-5. Recreate similar analyses on your own datasets.
+- Build confidence with data science workflows
+- Practice data cleaning and analysis
+- Understand core statistical concepts
+- Explore visualization techniques
+- Apply basic machine learning models
 
-## Project Structure
+## Project status
 
-```text
-Alvas/
-├── README.md
-├── python.ipynb
-├── Numpy.ipynb
-├── pandas.ipynb
-├── seaborn.ipynb
-├── statistics.ipynb
-├── Simple_Linear_Regression.ipynb
-├── boston_house_price_prediction.ipynb
-├── boston.csv
-├── pokeman.csv
-└── boston_project/
-```
-
-## Notes
-
-This repository reflects a learning journey and is meant for practice, experimentation, and continuous improvement in data science and machine learning.
-
-## Future Improvements
-
-- Add more advanced regression and classification notebooks
-- Include model evaluation metrics and explanations
-- Add a requirements file for dependencies
-- Document each notebook with step-by-step explanations
+This repository represents an ongoing practice session focused on continuous learning and skill development in data science and machine learning.
 
 ---
 
-Made for continuous learning and skill-building in data science and machine learning.
-=======
-# data-science-ml
->>>>>>> 0508710035b0a9f2e88d383bb1cdfdd0d288d846
+Built for learning, experimenting, and improving practical ML skills.
