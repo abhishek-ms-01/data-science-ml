@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>House Value Prediction</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            min-height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            width: 420px;
+            background: white;
+            padding: 35px;
+            border-radius: 15px;
+
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #777;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 7px;
+            font-weight: bold;
+            color: #444;
+        }
+
+        input[type="number"] {
+            width: 100%;
+            padding: 12px;
+
+            margin-bottom: 20px;
+
+            border: 1px solid #ccc;
+            border-radius: 8px;
+
+            font-size: 15px;
+            outline: none;
+        }
+
+        input[type="number"]:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 5px rgba(102, 126, 234, 0.4);
+        }
+
+        .predict-btn {
+            width: 100%;
+            padding: 13px;
+
+            border: none;
+            border-radius: 8px;
+
+            background: #667eea;
+            color: white;
+
+            font-size: 17px;
+            font-weight: bold;
+
+            cursor: pointer;
+        }
+
+        .predict-btn:hover {
+            background: #5568d9;
+        }
+
+        .info {
+            text-align: center;
+            margin-top: 20px;
+
+            color: #888;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <div class="container">
+
+        <h1>🏠 House Value Prediction</h1>
+
+        <p class="subtitle">
+            Enter the house details to predict its value
+        </p>
+
+
+        <!-- Flask Prediction Form -->
+
+        <form action="{{ url_for('get_value') }}" method="POST">
+
+
+            <!-- RM -->
+
+            <label for="rm">
+                Average Rooms (RM)
+            </label>
+
+            <input
+                type="number"
+                step="any"
+                id="rm"
+                name="rm"
+                placeholder="Example: 6.57"
+                required
+            >
+
+
+            <!-- PTRATIO -->
+
+            <label for="ptratio">
+                Pupil-Teacher Ratio (PTRATIO)
+            </label>
+
+            <input
+                type="number"
+                step="any"
+                id="ptratio"
+                name="pt"
+                placeholder="Example: 15.3"
+                required
+            >
+
+
+            <!-- LSTAT -->
+
+            <label for="lstat">
+                Lower Status Population (%) (LSTAT)
+            </label>
+
+            <input
+                type="number"
+                step="any"
+                id="lstat"
+                name="lstat"
+                placeholder="Example: 4.98"
+                required
+            >
+
+
+            <!-- Submit Button -->
+
+            <button
+                type="submit"
+                class="predict-btn">
+                Predict House Value
+            </button>
+
+        </form>
+
+
+        <p class="info">
+            Your prediction will be displayed on the next page.
+        </p>
+
+    </div>
+
+</body>
+
+</html>
